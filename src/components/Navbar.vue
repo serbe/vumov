@@ -15,17 +15,17 @@
 <script>
 export default {
   name: 'vue-navbar',
-  data() {
+  data () {
     return {
-      active: '',
-    };
+      active: ''
+    }
   },
   methods: {
-    toggle() {
-      this.active = this.active === '' ? 'is-active' : '';
-    },
-  },
-};
+    toggle () {
+      this.active = this.active === '' ? 'is-active' : ''
+    }
+  }
+}
 </script>
 
 <style scoped>

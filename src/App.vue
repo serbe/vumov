@@ -18,8 +18,8 @@ import vnavbar from '@/components/Navbar'
 export default {
   name: 'app',
   components: {
-    'vue-navbar': vnavbar,
-  },
+    'vue-navbar': vnavbar
+  }
 }
 </script>
 
