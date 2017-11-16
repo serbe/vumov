@@ -6,6 +6,8 @@ import NotFoundComponent from '@/components/NotFoundComponent'
 Vue.use(Router)
 
 export default new Router({
+  hashbang: false,
+  linkActiveClass: 'is-active',
   mode: 'history',
   routes: [
     {
