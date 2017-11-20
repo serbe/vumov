@@ -21,9 +21,9 @@ export default {
     }
   },
   methods: {
-    toggle () {
-      this.active = this.active === '' ? 'is-active' : ''
-    }
+    // toggle () {
+    //   this.active = this.active === '' ? 'is-active' : ''
+    // }
   }
 }
 </script>
