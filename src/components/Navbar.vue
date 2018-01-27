@@ -1,6 +1,6 @@
 <template>
-  <div class="container">
-    <nav class="navbar ">
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="container">
       <div class="navbar-brand">
         <template>
           <router-link to="/" class="navbar-item" exact>Home</router-link>
@@ -8,8 +8,8 @@
           <!-- <router-link to="/companies" class="navbar-item">Актеры</router-link> -->
         </template>
       </div>
-    </nav>
-  </div>
+    </div>
+  </nav>
 </template>
 
 <script>
