@@ -21,6 +21,11 @@ export default new Router({
       component: lazyLoad('Genres')
     },
     {
+      path: '/actors',
+      name: 'Actors',
+      component: lazyLoad('Actors')
+    },
+    {
       path: '*',
       name: '404',
       component: lazyLoad('NotFoundComponent')

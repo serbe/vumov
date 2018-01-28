@@ -4,8 +4,8 @@
       <div class="navbar-brand">
         <template>
           <router-link to="/" class="navbar-item" exact>Home</router-link>
-          <!-- <router-link to="/movies" class="navbar-item">Фильмы</router-link> -->
-          <!-- <router-link to="/companies" class="navbar-item">Актеры</router-link> -->
+          <router-link to="/genres" class="navbar-item">Жанры</router-link>
+          <router-link to="/actors" class="navbar-item">Актеры</router-link>
         </template>
       </div>
     </div>
