@@ -3,10 +3,6 @@ import Router from 'vue-router'
 
 const lazyLoad = (path) => () => import(`@/components/${path}`)
 
-// import Home from '@/components/Home'
-// import Genres from '@/components/Genres'
-// import NotFoundComponent from '@/components/NotFoundComponent'
-
 Vue.use(Router)
 
 export default new Router({
