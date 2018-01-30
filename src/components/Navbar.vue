@@ -29,7 +29,7 @@ export default {
 </script>
 
 <style scoped>
-a.is-active {
+/* a.is-active {
   border-bottom: 3px solid #363636;
-}
+} */
 </style>
