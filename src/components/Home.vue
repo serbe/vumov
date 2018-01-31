@@ -1,6 +1,14 @@
 <template>
-  <div>
-    <movie v-for="(data, key) in movies" :movie="data" :key="key"/>
+  <div class="columns">
+    <div class="column is-2 is-hidden-touch">
+      Filters
+    </div>
+    <div class="column">
+      <movie v-for="(data, key) in movies" :movie="data" :key="key"/>
+    </div>
+    <div class="column is-2 is-hidden-touch">
+      Properties
+    </div>
   </div>
 </template>
 

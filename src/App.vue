@@ -2,7 +2,9 @@
   <div id="app">
     <vue-navbar></vue-navbar>
     <section class="section">
-      <router-view></router-view>
+      <div class="container">
+        <router-view></router-view>
+      </div>
     </section>
     <footer class="footer">
       <div class="container">

@@ -28,6 +28,28 @@
           </div>
         </nav>
       </div>
+      <div class="media-right">
+        <nav class="panel is-size-7">
+          <a class="panel-block">
+            <span class="panel-icon">
+              <i class="fas fa-hashtag"></i>
+            </span>
+            <div class="is-hidden-touch">Описание</div>
+          </a>
+          <a class="panel-block">
+            <span class="panel-icon">
+              <i class="fas fa-info"></i>
+            </span>
+            <div class="is-hidden-touch">Информация</div>
+          </a>
+          <a class="panel-block">
+            <span class="panel-icon">
+              <i class="fas fa-download"></i>
+            </span>
+            <div class="is-hidden-touch">Ссылки</div>
+          </a>
+        </nav>
+      </div>
     </article>
   </div>
 </template>
