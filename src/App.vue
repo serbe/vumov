@@ -1,13 +1,15 @@
 <template>
-  <v-app>
-    <vue-navbar/>
-    <v-content>
-      <v-container fluid>
-        <router-view></router-view>
-      </v-container>
-    </v-content>
-    <v-footer app></v-footer>
-  </v-app>
+  <div id="app">
+    <vue-navbar></vue-navbar>
+    <section class="section">
+      <router-view></router-view>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">© 2017 Сочи</div>
+      </div>
+    </footer>
+  </div>
 </template>
 
 <script>
@@ -22,5 +24,4 @@ export default {
 </script>
 
 <style>
-
 </style>
