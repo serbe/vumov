@@ -1,6 +1,7 @@
 <template>
-  <div class="box">
-    <article class="media">
+  <div class="box pt10">
+    <strong>{{ movie.name }}</strong> <small>{{ movie.eng_name }}</small> <span class="has-text-right">{{ movie.year }}</span>
+    <article class="media mt10">
       <div class="media-left">
         <figure class="image is-64x64">
           <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
@@ -8,8 +9,6 @@
       </div>
       <div class="media-content">
         <div class="content" v-if="tab === 0">
-            <strong>{{ movie.name }}</strong> <small>{{ movie.eng_name }}</small> <small>{{ movie.year }}</small>
-            <br>
             {{ movie.description }}
         </div>
         <div class="content" v-else-if="tab === 1">
@@ -130,5 +129,13 @@ export default {
 .border {
   border-bottom: 1px solid #3273dc;
   margin-right: 4px;
+}
+
+.pt10 {
+  padding-top: 10px;
+}
+
+.mt10 {
+  margin-top: 10px;
 }
 </style>
