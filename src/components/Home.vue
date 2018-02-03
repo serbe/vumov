@@ -27,8 +27,8 @@ export default {
     }
   },
   created () {
-    console.log('getMovies')
-    this.$store.dispatch('getMovies')
+    // console.log('getMovies')
+    this.$store.dispatch('getMovies', 1)
   },
   // methods: {
   //   fetch_movies () {

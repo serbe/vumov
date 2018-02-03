@@ -17,3 +17,7 @@ export const clearMovies = (state) => {
 export const loadMovies = (state, value) => {
   state.loadMovies = value
 }
+
+export const moviesCount = (state, value) => {
+  state.moviesCount = value
+}

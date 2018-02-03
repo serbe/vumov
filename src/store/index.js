@@ -15,7 +15,8 @@ const state = {
   movies: [],
   loadMovies: false,
   isLoaded: false,
-  search: ''
+  search: '',
+  moviesCount: 0
 }
 
 export default new Vuex.Store({
